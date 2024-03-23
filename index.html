@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Converter</h1>
+        <input type="text" id="videoUrl" placeholder="Insira o URL do vídeo do YouTube">
+        <button onclick="convertTo('mp4')">Converter para MP4</button>
+        <button onclick="convertTo('mp3')">Converter para MP3</button>
+        <button onclick="downloadConvertedFile()">Baixar</button>
+        <div id="downloadLink"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
